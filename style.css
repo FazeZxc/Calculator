@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#out{
+    height: 50px;
+    width: 90%;
+    font-weight: bold;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+    transition: all .5s;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper{
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.keys{
+    flex-basis: 33.33%;
+    justify-content: space-around;
+    color: #272727;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    font-family: 'PT Sans', sans-serif;
+}
+.keys:hover{
+    transition: all .5s;
+    opacity: .6;
+}
+.keys::selection{
+    display: none;
+}
+
+.fnkeys{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: #272727;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: greenyellow;
+    height: 50px;
+    width: 100px;
+    font-family: 'PT Sans', sans-serif;
+    align-items: center;
+}
+
+.fnkeys:hover{
+    transition: all .5s;
+    opacity: .6;
+}
+
+.solve{
+    
+    padding: 15px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: crimson;
+    height: 50px;
+    width: 200px;
+    font-family: 'PT Sans', sans-serif;
+    background-image: none;
+}
+
+.solve:hover{
+    transition: all 2s;
+    background-color: red;
+}
+
+.clear{
+    padding: 15px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: crimson;
+    height: 50px;
+    width: 100px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.clear:hover{
+    transition: all 2s;
+    background-color: red;
+}

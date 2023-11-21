@@ -24,7 +24,7 @@ Function Keys: Click on the function keys (+, -, x, /, (, )) to input arithmetic
 Evaluate Button: Click the "Evaluate" button to calculate the result of the expression.
 Clear Button: Click the "CE" button to clear the input screen.
 Keyboard Shortcuts: Press Enter to trigger the "Evaluate" button.
-# eyboard Shortcuts 
+# Keyboard Shortcuts 
 Enter: Press the Enter key to evaluate the expression.
 # Styling 
 The calculator has a clean and modern design with the following key styling features:
@@ -33,7 +33,7 @@ Background: The application has a black background.
 Input Screen: The input screen is a burlywood-colored box with a white font.
 Key Buttons: Numeric and function keys have a white background with greenyellow for function keys.
 Hover Effects: Keys and buttons change opacity on hover for a better user experience.
-# ependencies 
+# Dependencies 
 Math.js: The calculator uses the Math.js library (version 12.1.0) for evaluating mathematical expressions. The library is included from a CDN.
-Conclusion
+# Conclusion
 This documentation provides a quick guide to the features and usage of the simple calculator web application. Feel free to customize and enhance the code to meet specific requirements.
